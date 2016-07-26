@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="bulma/bulma.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<section class="hero is-dark">
+		  <div class="hero-body">
+			<div class="container">
+				<h1 class="title">
+					HTML5 VALIDACIONES + BULMA CSS RESPONSIVE FRAMEWORK
+				</h1>
+				<h2 class="subtitle">
+					Validaci&oacute;n de Formularios HTML5
+				</h2>
+			</div>
+		  </div>
+		</section>
+		<br></br>
+		<form action="validaciones.html">
+			<div class="columns">
+				<div class="column is-8 is-offset-2">
+					<p class="label">Nombre:</p>
+					<input class="input" type="text" placeholder="Ingresar Nombre" required>					
+					<p class="label">Edad:</p>
+					<input class="input" type="number" placeholder="Ingresar Edad" required>
+					<p class="label">Correo:</p>
+					<input class="input" type="email" placeholder="Ingresar Correo" required>
+					<p class="label">Sexo:</p>
+					<p class="control">
+						<label class="radio">
+							<input type="radio" name="question" required>
+							Femenino
+						</label>
+						<label class="radio">
+							<input type="radio" name="question" required>
+							Masculino
+						</label>
+					</p>
+					<p class="control">
+						<center><button class="button is-danger">Registrar</button></center>
+					</p>
+				</div>
+			</div>
+		</form>
+		<footer class="footer">
+		  <div class="container">
+			<div class="content has-text-centered">
+				<p>INGENIERIA DE LA WEB - JOSE RECINOS (UDB)</p>
+			</div>
+		  </div>
+		</footer>
+	</body>
+</html>
